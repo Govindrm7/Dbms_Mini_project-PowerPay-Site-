@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PowerPay.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.customer:hover{ 
+color:	#ff6347 ;}
+.connection:hover{ 
+color:	#ff6347 ;}
+.bill-det:hover{ 
+color:	#ff6347 ;}
+.met-det:hover{ 
+color:	#ff6347 ;}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  font-size:30px;
+  text-align: center;
+  background: #1abc9c;
+  color: #00fa9a  ;
+  background-image: url("https://i.pinimg.com/originals/ca/f0/f7/caf0f7748a0df0620bd8e9d3d28173da.jpg");
+  background-size:cover;
+  
+}
+
+
+.header h1 {
+  font-size: 60px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color:#333;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: 	#90ee90;
+  color: black;
+}
+
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: 	#e0ffff ;
+  
+  padding:20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:	#333;
+  color:	#ffa07a;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>PowerPay</h1>
+  <p>Online Payments</p>
+
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">Services</a>
+  <a href="#">Feedback</a>
+  <a href="#" class="right">Sign In</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2 class="customer">Customer</h2>
+    <h2 class="connection">Connection</h2>
+    <h2 class="bill-det">Bill Details</h2>
+  
+    <h2 class="met-det">Meter Details</h2>
+    
+    
+  </div>
+  <div class="main">
+    <h2>Login Details</h2>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Contact Us</h2>
+  <h3>Mobile Number:123456780</h3>
+  <h3>Email:PowerPay@gmail.com</h3>
+  
+</div>
+
+</body>
+</html>
