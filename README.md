@@ -1,4 +1,4 @@
-# DBMS_Mini_Project
+# DBMS_MINI_PROJECT.
 ### <i>Automatic Electricity Bill Generation System</i>
 We have made an Automatic Electricity Bill Generation System which when provided with login details of the customer or user, the customer can view the payable bill details along with personal, connection and meter details.<br>
 The main two modules or components of this system are Frontend and Backend development:<br>
